@@ -182,6 +182,22 @@ main .menu .scMenu{
     border-radius: 10px;
     padding: 15px;
     margin: 10px 0;
+    display: flex;
+}
+.show .dropdown .item:hover{
+    color: rgba(255, 255, 255, 1);
+}
+.show .dropdown .contTwo{
+    width: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+.show .dropdown .contTwo svg{
+    transition: all ease .3s    ;
+}
+.show .dropdown .contTwo svg:hover{
+    color: rgba(255, 255, 255, .5)  ;
 }
 .show .dropdown .item h4{
     margin-bottom: 15px;
