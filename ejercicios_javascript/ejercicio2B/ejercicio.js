@@ -2,7 +2,6 @@ $(document).ready(function () {
     let url = 'http://gateway.marvel.com/v1/public/characters?apikey=605ddd9fbc97b9ea7923bd1f876a498b&ts=99999&hash=c29ee2d1294e3c3aa1c59bfe1fb86488'
     $.get(url, function(data, status){
         let personajes = data.data.results
-        console.log(personajes)
         let content = ''
         personajes.forEach(element => {
             content += `
