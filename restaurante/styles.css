@@ -71,6 +71,11 @@ body{
     display: flex;
     align-items: center;
 }
+.navbar .fcNavbar .link-atras{
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
 .navbar .scNavbar{
     height: 100%;
     width: 60%;
